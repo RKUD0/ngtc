@@ -1,5 +1,5 @@
 <?php get_header(); ?>
-test2
+
 
 <?php if (is_page('system') && is_parent_slug() === 'school') : ?>
     <div class="topimg">
