@@ -971,7 +971,7 @@
                         <div class="t-abt-bottom">
                             <a href="https://docs.google.com/forms/d/1Gn19YXcwZ1uOYB3FgGM6B8hcQUSoptpLCT6nOxe8EEM/edit?">男女シングルスエントリーはコチラ</a>
                             <a href="https://docs.google.com/forms/d/1DOOTnIfFbGLJSgQ8izMEuzNZlUQkTaJCSTtwApkBOzY/edit?ts=6242a062#responses">女子ダブルスエントリーはコチラ</a>
-                        </div>
+                        </div>test
 -->
 
                             <div class="tac-2">
