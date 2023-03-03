@@ -1,0 +1,390 @@
+@media screen and (max-width: 1440px){
+
+}
+
+@media screen and (max-width: 1154px){
+
+
+/***************ヘッダー*********************/
+
+footer {
+    background-color: #00B0F0;
+}
+.header-wrap>.header-main {
+    display: flex;
+    flex-wrap: nowrap;
+    height:100px;
+    margin-top:-20px;
+    margin-bottom:10px;
+}
+.header-wrap>.header-top {
+    font-size:5px;
+}
+.header-wrap>.nav_menu {
+    display: none;
+}
+.header-main>.header-right {
+    margin-left:auto;
+    margin-right:0px;
+   text-align: center;
+}
+.header-main>.header-right li{
+    margin-right:5px;
+    font-size:25px;
+    width:150px;
+
+}
+.header-main>.header-right div{
+    width:150px;
+    height:75px;
+    border-radius: 75px 75px 0 0;
+
+
+}
+
+.header-main>.header-right a{
+    padding-top:40px;
+}
+
+
+header>.top_banner {
+    margin-top:5px;
+}
+
+.top_banner>.top_banner_btn {
+    margin-top:0px;
+    
+}
+.top_banner>.top_banner_btn ul{
+    display: flex;
+    justify-content: space-between;
+    margin:0 30px;
+    padding: 0;
+}
+.top_banner>.top_banner_btn li{
+    list-style: none;
+    float:none;
+    margin-right:100px;
+    width:200px;
+    height:200px;
+
+}
+
+/***************スライダー**********/
+
+
+
+
+
+body>.article_container {
+    width:95%;
+    margin:0 auto;
+}
+body>.coulumn {
+    width:95%;
+    margin:0 auto;
+}
+body>.agenda-wrap {
+    width:95%;
+}
+
+
+/**********************ハンバーガー*********************************/
+.hamburger-menu>.menu-btn
+,header>.hum-menu{
+    display: flex;
+}
+/*下部固定*/
+footer>.fix-rights{
+    display: flex;
+    flex-direction: row;
+    position: fixed;
+    width:100%;
+    bottom:0;
+}
+.fix-right>a>p.frp {
+    line-height: 50px;
+}
+.fix-rights>.fix-right {
+    width:25%;
+    height:120px;
+    background-color: #00B0F0;
+    z-index: 10;
+}
+.fix-rights>.fix-right1{
+    width:25%;
+    height: 160px;
+}
+.fix-rights>.fix-right2{
+    width:25%;
+    height: 160px;
+}
+.fix-rights>.fix-right3{
+    width:25%;
+    height: 160px;
+
+}
+.fix-rights>.fix-right4{
+    width:25%;
+    height: 160px;
+}
+.fix-rights>.fix-right1 a{
+    display: block;
+    background-color: rgb(221, 85, 91);
+    height:100%;
+    color: white;
+    padding-top: 50px;
+    font-size: 30px;
+}
+.fix-rights>.fix-right2 a{
+    display: block;
+    background-color: rgb(20, 79, 138);
+    height:100%;
+    color: white;
+    padding-top: 40px;
+    font-size: 30px;
+}
+.fix-rights>.fix-right3 a{
+    display: block;
+    background-color: rgb(81, 169, 182);
+    height:100%;
+    color: white;
+    padding-top: 40px;
+    font-size: 30px;
+}
+.fix-rights>.fix-right4 a{
+    height:100%;
+    display: block;
+    background-color: #8FAADC;
+    color: white;
+    padding-top: 40px;
+    font-size: 30px;
+}
+/***************top page*********************/
+body>.frontpage-sub-banner {
+margin: 100px 0 0 0;
+}
+body>.frontpage-sub-banner h2{
+    margin:50px 10px;
+}
+.frontpage-sub-banner>.sub-banner-content {
+    display: flex;
+    flex-direction: column;
+    padding-bottom: 100px;
+    width:100%;
+}
+.sub-banner-content>.about {
+    margin:0 0px;
+    width:100%;
+    padding:10px;
+}
+body>.frontpage-sub-banner {
+    width:100%;
+    }
+    
+.sub-banner-content>.movie {
+    margin:50px auto;
+    width:90%;
+    border: white 5px solid;
+    height:600px;
+}
+.sub-banner-content>.frontpage-sub-banner-about{
+    width:95%;
+}
+.access>.access-con {
+    width:100%;
+
+}
+.sub-ban2>.sb2-btns {
+    display: flex;
+}
+.sub-ban2>.sb2-btns ,
+.sub-ban3>.sb3-btns 
+{
+    width:100%;
+}
+.access-top>.access-txt p
+,.access-top>.access-txt h2
+,.access-top>.access-txt h3{
+    padding-left:5px;
+}
+.access-txt>.access-txt-y p:last-child{
+    padding-left:5px;
+}
+#atyp{
+    font-size: 25px;
+}
+
+body>.instagram {
+    width:95%;
+}
+body>.main-mmm {
+    width:100%;
+    margin:0 auto;
+    margin-top:-100px;
+}
+.main-mmm>.pc-main {
+    display: none;
+}
+.main-mmm>.sp-main {
+    display: block;
+}
+
+
+body>.doron a{
+    text-decoration: none;
+    border: 2px solid black;
+    padding: 20px;
+    border-radius: 10px;
+    color: black;
+    font-size: 20px;
+}
+body>.topimg {
+    width:100%;
+}
+/***************スクール*********************/
+/*システム料金*/
+body>.s-sys-wrap {
+    width:95%;
+}
+
+.s-sys-cons>.s-sys-con>.s-sys-fee {
+    background-color: #F2F2F2;
+    width:40%;
+    text-align: center;
+    padding:30px 0;
+    font-size: 18px;
+    margin:50px 0px;
+}
+.s-sys-wrap>.sclatoptxt p{
+    font-size: 17px;
+}
+/*****************クラブ会員//////////////////////*/
+body>.c-sys-wrap {
+    width:95%;
+}
+.c-sys-con >.csc-225{
+    font-size: 12px;
+}
+
+/*****************大会要項//////////////////////*/
+body>.t-about {
+    width:95%;
+
+}
+/*****************レンタルコート//////////////////////*/
+body>.r-sys-wrap {
+    width:95%;
+}
+
+
+/***************お問い合わせ系*********************/
+    body>.inq-inq-wrap {
+        width:95%;
+    }
+    body>.inq-top {
+        width:95%;
+    }
+    .wpcf7-form>.inq-inq {
+        width:95%;
+    }
+.access-txt-y p{
+    color: #000000;
+    margin:0;
+    padding-top:15px ;
+    padding-bottom:30px;
+}
+.wpcf7-form-control-wrap>.wpcf7-form-control {
+    height:35px;
+}
+
+/*******************フッター*****************************/
+footer {
+    width:100%;
+}
+
+.footer-nav>.footer-container {
+    width:50%;
+    padding:10px 30px;
+}
+body>.footer-top {
+    text-align: center;
+    width:95%;
+    margin:0 auto;
+    margin-top:50px;
+}
+footer>.footer-con {
+    padding-bottom: 100px;
+}
+} 
+
+
+@media screen and (max-width: 775px){
+    
+}
+
+
+
+/******************stuff*****************************/
+@media screen and (max-width: 1154px) { 
+
+    body>.staff {
+        margin:100px 5px;
+        
+    }
+    .body >.fs-staff-top {
+        margin-top:0px;
+    }
+    .staff_info_right>.staff_info_message ,
+    .staff_info_right>.staff_info_playier,
+    .staff_info_right>.staff_info_pr ,
+    .staff_info_right>.staff_info_good,
+     .staff_info_right>.staff_info_stlye, 
+    .staff_info_right>.staff_info_shoot, 
+     .staff_info_right>.staff_info_like {
+    display: block;
+    width:100%;
+    } 
+    .staff_info_right>.staff_info_message>.sil ,
+    .staff_info_right>.staff_info_playier>.sil,
+    .staff_info_right>.staff_info_pr >.sil,
+    .staff_info_right>.staff_info_good>.sil,
+     .staff_info_right>.staff_info_stlye>.sil, 
+    .staff_info_right>.staff_info_shoot>.sil, 
+     .staff_info_right>.staff_info_like>.sil {
+    width:100%;
+    } 
+    .staff_info_right>.staff_info_message>.sir,
+    .staff_info_right>.staff_info_playier>.sir,
+    .staff_info_right>.staff_info_pr >.sir,
+    .staff_info_right>.staff_info_good>.sir,
+     .staff_info_right>.staff_info_stlye>.sir, 
+    .staff_info_right>.staff_info_shoot>.sir, 
+     .staff_info_right>.staff_info_like>.sir {
+    width:100%;
+    } 
+    .fs-staff-top>.fs-staff-name {
+        font-size:40px;
+        left:20px;
+    }
+    .fs-staff-top>.fs-staff-name::before {
+        width: 200px;
+        height: 30px;
+        bottom: -5px;
+        left: calc(50% - 100px);
+    }
+    .staff_info_left >.staff_img img {
+        transform: scale(0.9);
+    }
+    
+
+
+
+
+
+    body>.fs-staff-404 {
+        font-size: 25px;
+    }
+
+
+}
