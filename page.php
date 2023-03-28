@@ -995,133 +995,134 @@
             </div>
         </div>
 
+    </div>
 
 
-        <?php
-        /*********大会の魅力 ******************************************/
-        ?>
-    <?php elseif (is_page('att')) : ?>
+    <?php
+    /*********大会の魅力 ******************************************/
+    ?>
+<?php elseif (is_page('att')) : ?>
 
-        <div class="topimg">
-            <img src="<?php echo get_template_directory_uri(); ?>/assets/img/大会魅力2.jpg" alt="">
-        </div>
+    <div class="topimg">
+        <img src="<?php echo get_template_directory_uri(); ?>/assets/img/大会魅力2.jpg" alt="">
+    </div>
 
 
-        <div class="t-about">
-            <div class="t-abt-top t-abt-topb">
-                <h2 id="tournament"><span class="tats1 tats1-1">[</span>名古屋グリーン主催テニス大会の特長<span class="tats2 tats2-1">]</span></h2>
-                <div class="t-abt-top2">
-                    <div class="tat2-txt2">
-                        <p> 当クラブでは、年間で１５０回以上の大会を実施しています。<br>必ず複数回の試合を行っていただける形式にしていますので、
-                            １日で多くの試合をすることができます。</p>
-                        <p>大会運営は専属コーチが行いますので、初めて参加される方でも安心してご参加いただけます。</p>
-                        <p>自然豊かな広々とした会場で、１日中テニスをご満喫下さい。</p>
-                    </div>
+    <div class="t-about">
+        <div class="t-abt-top t-abt-topb">
+            <h2 id="tournament"><span class="tats1 tats1-1">[</span>名古屋グリーン主催テニス大会の特長<span class="tats2 tats2-1">]</span></h2>
+            <div class="t-abt-top2">
+                <div class="tat2-txt2">
+                    <p> 当クラブでは、年間で１５０回以上の大会を実施しています。<br>必ず複数回の試合を行っていただける形式にしていますので、
+                        １日で多くの試合をすることができます。</p>
+                    <p>大会運営は専属コーチが行いますので、初めて参加される方でも安心してご参加いただけます。</p>
+                    <p>自然豊かな広々とした会場で、１日中テニスをご満喫下さい。</p>
                 </div>
             </div>
-            <div class="att-rec">
-                <h2 class="bold f27">こんな方におすすめです</h2>
-                <div class="att-border"></div>
+        </div>
+        <div class="att-rec">
+            <h2 class="bold f27">こんな方におすすめです</h2>
+            <div class="att-border"></div>
 
-                <ul class="att-under">
-                    <li>&#10003;1日中テニスを満喫したい！</li>
-                    <li>&#10003;色々なタイプの選手、強い選手と対戦してみたい！</li>
-                    <li>&#10003;新しいテニス仲間を探したい！</li>
-                    <li>&#10003;試合経験が少ないくて不安</li>
-                    <li>&#10003;とにかくたくさんの試合がしたい！</li>
+            <ul class="att-under">
+                <li>&#10003;1日中テニスを満喫したい！</li>
+                <li>&#10003;色々なタイプの選手、強い選手と対戦してみたい！</li>
+                <li>&#10003;新しいテニス仲間を探したい！</li>
+                <li>&#10003;試合経験が少ないくて不安</li>
+                <li>&#10003;とにかくたくさんの試合がしたい！</li>
 
-                </ul>
-            </div>
-            <div class="att-all-img2">
-                <a href="https://www.instagram.com/nagoyagreentennisclub/">
-                    <img src="<?php echo get_template_directory_uri(); ?>/assets/img/Instagramバナー.png" alt="">
-                </a>
-            </div>
+            </ul>
+        </div>
+        <div class="att-all-img2">
+            <a href="https://www.instagram.com/nagoyagreentennisclub/">
+                <img src="<?php echo get_template_directory_uri(); ?>/assets/img/Instagramバナー.png" alt="">
+            </a>
+        </div>
 
-            <div class="att-ex ">
-                <h2 class="f27  bold">当クラブの大会に初めて参加される方へ</h2>
-                <div class="att-border"></div>
+        <div class="att-ex ">
+            <h2 class="f27  bold">当クラブの大会に初めて参加される方へ</h2>
+            <div class="att-border"></div>
 
-                <p>（当日の大会の流れをご説明させていただきます）</p>
+            <p>（当日の大会の流れをご説明させていただきます）</p>
 
-                <ul class="att-under">
-                    <li><a href="">ジュニア大会に初めて参加される方</a></li>
-                    <li><a href="">一般大会に初めて参加される方</a></li>
+            <ul class="att-under">
+                <li><a href="">ジュニア大会に初めて参加される方</a></li>
+                <li><a href="">一般大会に初めて参加される方</a></li>
 
-                </ul>
-            </div>
-            <div class="att-all bold">
-                <h2 class="f27">テニス大会一覧表</h2>
-                <div class="att-border"></div>
+            </ul>
+        </div>
+        <div class="att-all bold">
+            <h2 class="f27">テニス大会一覧表</h2>
+            <div class="att-border"></div>
 
-                <div class="att-all-img">
-                    <p>横にスクロールしてください</p>
-                    <table class="fwlight">
-                        <tbody>
-                            <tr class="bc-gray fc-white">
-                                <td>カテゴリ</td>
-                                <td class="sticky bc-gray fc-white">大会名</td>
-                                <td>対象の方</td>
-                                <td>試合方法（※1）</td>
-                                <td>種目</td>
-                                <td>平均参加数（最大数）</td>
-                            </tr>
-                            <tr class="bc-white fc-black">
-                                <td rowspan="3" class="bc-black fc-white">ジュニア月例</td>
-                                <td class="sticky bc-white fc-black">ビギナーズトーナメント</td>
-                                <td>小学生</td>
-                                <td rowspan="3">トーナメント敗退後はチャレンジマッチ<br>（平均5試合前後）</td>
-                                <td>男女別シングルス</td>
-                                <td>40～60名（100名）</td>
-                            </tr>
-                            <tr class="bc-white fc-black">
-                                <td class="sticky bc-white fc-black">小学生月例大会</td>
-                                <td>小学生</td>
-                                <td>男女別シングルス</td>
-                                <td>80～100名（130名）</td>
-                            </tr>
-                            <tr class="bc-white fc-black">
-                                <td class="sticky bc-white fc-black">中学生月例大会</td>
-                                <td>中学生（※2）
-                                </td>
-                                <td>男女別シングルス</td>
-                                <td>80～100名（130名）</td>
-                            </tr>
-                            <tr class="bc-lg fc-black">
-                                <td rowspan="4" class="bc-black fc-white">一般月例</td>
-                                <td class="sticky bc-lg fc-black">男女シングルストーナメント</td>
-                                <td>中学生以上</td>
-                                <td rowspan="4">予選リーグ&#8658;<br>順位別トーナメント（平均4試合以上）</td>
-                                <td>男女別シングルス</td>
-                                <td>50～60名（75名）</td>
-                            </tr>
-                            <tr class="bc-lg fc-black">
-                                <td class="sticky bc-lg fc-black">男女ダブルストーナメント</td>
-                                <td>中学生以上</td>
-                                <td>男女別ダブルス</td>
-                                <td>40～50名（75名）</td>
-                            </tr>
-                            <tr class="bc-lg fc-black">
-                                <td class="sticky bc-lg fc-black">ミックスダブルストーナメント</td>
-                                <td>中学生以上</td>
-                                <td>男女混合ダブルス</td>
-                                <td>40～50組（75組）</td>
-                            </tr>
-                            <tr class="bc-lg fc-black">
-                                <td class="sticky bc-lg fc-black">団体戦</td>
-                                <td>中学生以上</td>
-                                <td>男女別ダブルス＋混合ダブルス</td>
-                                <td>10～20団体（24団体）</td>
-                            </tr>
-                            <tr class="bc-white fc-black">
-                                <td class="bc-black fc-white">平日月例</td>
-                                <td class="sticky bc-white fc-black">月例レディーストーナメント</td>
-                                <td>中学生以上</td>
-                                <td>予選リーグ&#8658;順位別トーナメント（平均4試合以上）</td>
-                                <td>女子ダブルス</td>
-                                <td>40～50組（75組）</td>
-                            </tr>
-                            <?php /* ?>
+            <div class="att-all-img">
+                <p>横にスクロールしてください</p>
+                <table class="fwlight">
+                    <tbody>
+                        <tr class="bc-gray fc-white">
+                            <td>カテゴリ</td>
+                            <td class="sticky bc-gray fc-white">大会名</td>
+                            <td>対象の方</td>
+                            <td>試合方法（※1）</td>
+                            <td>種目</td>
+                            <td>平均参加数（最大数）</td>
+                        </tr>
+                        <tr class="bc-white fc-black">
+                            <td rowspan="3" class="bc-black fc-white">ジュニア月例</td>
+                            <td class="sticky bc-white fc-black">ビギナーズトーナメント</td>
+                            <td>小学生</td>
+                            <td rowspan="3">トーナメント敗退後はチャレンジマッチ<br>（平均5試合前後）</td>
+                            <td>男女別シングルス</td>
+                            <td>40～60名（100名）</td>
+                        </tr>
+                        <tr class="bc-white fc-black">
+                            <td class="sticky bc-white fc-black">小学生月例大会</td>
+                            <td>小学生</td>
+                            <td>男女別シングルス</td>
+                            <td>80～100名（130名）</td>
+                        </tr>
+                        <tr class="bc-white fc-black">
+                            <td class="sticky bc-white fc-black">中学生月例大会</td>
+                            <td>中学生（※2）
+                            </td>
+                            <td>男女別シングルス</td>
+                            <td>80～100名（130名）</td>
+                        </tr>
+                        <tr class="bc-lg fc-black">
+                            <td rowspan="4" class="bc-black fc-white">一般月例</td>
+                            <td class="sticky bc-lg fc-black">男女シングルストーナメント</td>
+                            <td>中学生以上</td>
+                            <td rowspan="4">予選リーグ&#8658;<br>順位別トーナメント（平均4試合以上）</td>
+                            <td>男女別シングルス</td>
+                            <td>50～60名（75名）</td>
+                        </tr>
+                        <tr class="bc-lg fc-black">
+                            <td class="sticky bc-lg fc-black">男女ダブルストーナメント</td>
+                            <td>中学生以上</td>
+                            <td>男女別ダブルス</td>
+                            <td>40～50名（75名）</td>
+                        </tr>
+                        <tr class="bc-lg fc-black">
+                            <td class="sticky bc-lg fc-black">ミックスダブルストーナメント</td>
+                            <td>中学生以上</td>
+                            <td>男女混合ダブルス</td>
+                            <td>40～50組（75組）</td>
+                        </tr>
+                        <tr class="bc-lg fc-black">
+                            <td class="sticky bc-lg fc-black">団体戦</td>
+                            <td>中学生以上</td>
+                            <td>男女別ダブルス＋混合ダブルス</td>
+                            <td>10～20団体（24団体）</td>
+                        </tr>
+                        <tr class="bc-white fc-black">
+                            <td class="bc-black fc-white">平日月例</td>
+                            <td class="sticky bc-white fc-black">月例レディーストーナメント</td>
+                            <td>中学生以上</td>
+                            <td>予選リーグ&#8658;順位別トーナメント（平均4試合以上）</td>
+                            <td>女子ダブルス</td>
+                            <td>40～50組（75組）</td>
+                        </tr>
+                        <?php /* ?>
                         <tr class="bc-lg fc-black">
                             <td rowspan="2" class="bc-black fc-white">不定期</td>
                             <td class="sticky bc-lg fc-black">半日4試合！レベアップルマッチ</td>
@@ -1134,797 +1135,797 @@
                             <td colspan="4" class="ta-center">詳しくは要項をご覧ください</td>
                         </tr>
                         <?php */ ?>
-                        </tbody>
-                    </table>
-                </div>
-                <div class="f10 fwlight">※1　試合数については参加数によって前後します</div>
-                <div class="f10 fwlight">※2　小学生の選手で中学生月例大会に出場する場合、小学生月例大会でベスト8以上に入賞経験がある選手に限ります</div>
-            </div>
-
-
-
-        </div>
-
-
-    <?php elseif (is_page('tutorial')) : ?>
-
-        <div class="topimg">
-            <img src="<?php echo get_template_directory_uri(); ?>/assets/img/大会魅力2.jpg" alt="">
-        </div>
-
-
-        <div class="t-about">
-
-            <div class="att-ex ">
-                <p class="under-line">当クラブの大会にはじめて参加される方、および保護者の皆様へ
-                </p>
-
-
-
-                大会の流れ、進め方をご案内します<br>
-
-                大会日の2日前までに大会エントリー（申込）を行います。
-                <ul>
-                    <li class="mb15"><a href="https://ngtc.jp/tournament/about/">大会要項ページ</a></li>
-                    <li><a href="https://ngtc.jp/contact/genentry/"> 申込フォーム</a></li>
-                </ul>
-                <h2 class="f27  bold mtop100">検温の実施（7：30～）</h2>
-                <div class="att-border"></div>
-
-
-
-                ジュニア大会では、混雑を避けるため7：30より正面玄関にて検温を実施致します。<br>
-                検温後、正面玄関西側の専用入場口よりご入場ください。
-                <div class="tuto-img">
-                    <img src="<?php echo get_template_directory_uri(); ?>/assets/img/大会魅力2.jpg" alt="">
-                </div>
-                <h2 class="f27  bold mtop100 mtop100">大会本部にて受付を行います。</h2>
-                <div class="att-border"></div>
-
-
-
-                当日は可能な限り、選手本人に行なっていただきます。<br>
-                分からない場合はスタッフがサポートを行います。<br>
-                保護者の方は可能な限り手を出さず、お子さまの頑張りを見守ってください。
-                <div class="tuto-img">
-                    <img src="<?php echo get_template_directory_uri(); ?>/assets/img/大会魅力2.jpg" alt="">
-                </div>
-
-
-                <h2 class="f27  bold mtop100">受付の流れ（8：00～8：30）</h2>
-                <div class="att-border"></div>
-
-                <ul>
-                    <li> ①自分の名札を取る
-                    </li>
-                    <div class="tuto-img">
-                        <img src="<?php echo get_template_directory_uri(); ?>/assets/img/大会魅力2.jpg" alt="">
-                    </div>
-
-                    <li> ②エントリー代を渡す
-                    </li>
-                    <div class="tuto-img">
-                        <img src="<?php echo get_template_directory_uri(); ?>/assets/img/大会魅力2.jpg" alt="">
-                    </div>
-
-                    <li> ③自分の名前、所属先を伝えて番号の抽選をする
-                    </li>
-                    <div class="tuto-img">
-                        <img src="<?php echo get_template_directory_uri(); ?>/assets/img/大会魅力2.jpg" alt="">
-                    </div>
-
-                    <li> ④名札を渡してドロー表に名札を貼ってもらう
-                    </li>
-                    <div class="tuto-img">
-                        <img src="<?php echo get_template_directory_uri(); ?>/assets/img/大会魅力2.jpg" alt="">
-                    </div>
-
-                </ul>
-
-
-                <h2 class="f27  bold mtop100">受付後は8：00からコートでウォーミングアップができます</h2>
-                <div class="att-border"></div>
-
-
-
-                コートに入れるのは参加選手のみです。<br>
-                はじめての選手は勇気を出して、他の選手の練習に声をかけて、混ぜてもらおう！<br>
-                試合の前に体を動かしてきちんと準備をする習慣をつけよう！<br>
-                <div class="tuto-img">
-                    <img src="<?php echo get_template_directory_uri(); ?>/assets/img/大会魅力2.jpg" alt="">
-                </div>
-
-                <h2 class="f27  bold mtop100"> 大会説明（8：30前後）</h2>
-                <div class="att-border"></div>
-
-
-
-                大会本部でコーチから大会の説明を行います。<br>
-                ルール、試合の進め方やチャレンジマッチなどについて説明をします。<br>
-                はじめての選手はできるだけ前の方や声が聞こえやすいところで話を聞こう！<br>
-                分からないことがあったらコーチに聞いてみよう！<br>
-                <div class="mb15"></div>
-                <a href="" download>詳しい試合ルールはこちら⇒PDF</a>
-                <div class="mb15"></div>
-                <div class="tuto-img">
-                    <img src="<?php echo get_template_directory_uri(); ?>/assets/img/大会魅力2.jpg" alt="">
-                </div>
-                <h2 class="f27  bold mtop100">試合開始（8：45前後）</h2>
-                <div class="att-border"></div>
-
-
-
-                トーナメント敗退後はチャレンジマッチ（4ゲーム先取）に参加できます。<br>
-                チャレンジマッチに積極的に参加しよう！<br>
-                試合経験をたくさん積んでレベルアップしよう！！<br>
-                <h2 class="f27  bold mtop100">終了時間について</h2>
-                <div class="att-border"></div>
-
-
-
-                トーナメントのドロー数は当日の参加数によって変動します。<br>
-                閉会式等はありませんので自由解散となります。<br>
-                大会は通常15時～17時ごろ終了となります。<br>
-                チャレンジマッチは本戦決勝まで並行して実施します。<br>
-                試合が終わったコートは参加選手の皆様へ開放をします（17：45まで）
-
-
-
-            </div>
-
-
-        </div>
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-    <?php elseif (is_page('about') && is_parent_slug() === 'rental') : ?>
-    <?php elseif (is_page('system') && is_parent_slug() === 'rental') : ?>
-        <div class="topimg">
-            <img src="<?php echo get_template_directory_uri(); ?>/assets/img/m-rental.jpg" alt="">
-        </div>
-        <div class="doron">
-            <a href="<?php echo home_url(); ?>#tube">名古屋グリーンの魅力が詰まったプロモーションMOVIEはこちら</a>
-        </div>
-
-        <div class="r-sys-wrap">
-
-            <div class="r-sys-top ">
-                <h2 id="rental">貸出時間</h2>
-                <table class="rental-table" cellspacing="0">
-                    <tbody>
-                        <tr>
-                            <td class="bgc-green c-white">平日</td>
-                            <td>9:00～18:00</td>
-                        </tr>
-                        <tr>
-                            <td class="bgc-green c-white">ビジターの方</td>
-                            <td>8:00～18:00</td>
-                        </tr>
                     </tbody>
                 </table>
-                <!--
+            </div>
+            <div class="f10 fwlight">※1　試合数については参加数によって前後します</div>
+            <div class="f10 fwlight">※2　小学生の選手で中学生月例大会に出場する場合、小学生月例大会でベスト8以上に入賞経験がある選手に限ります</div>
+        </div>
+
+
+
+    </div>
+
+
+<?php elseif (is_page('tutorial')) : ?>
+
+    <div class="topimg">
+        <img src="<?php echo get_template_directory_uri(); ?>/assets/img/大会魅力2.jpg" alt="">
+    </div>
+
+
+    <div class="t-about">
+
+        <div class="att-ex ">
+            <p class="under-line">当クラブの大会にはじめて参加される方、および保護者の皆様へ
+            </p>
+
+
+
+            大会の流れ、進め方をご案内します<br>
+
+            大会日の2日前までに大会エントリー（申込）を行います。
+            <ul>
+                <li class="mb15"><a href="https://ngtc.jp/tournament/about/">大会要項ページ</a></li>
+                <li><a href="https://ngtc.jp/contact/genentry/"> 申込フォーム</a></li>
+            </ul>
+            <h2 class="f27  bold mtop100">検温の実施（7：30～）</h2>
+            <div class="att-border"></div>
+
+
+
+            ジュニア大会では、混雑を避けるため7：30より正面玄関にて検温を実施致します。<br>
+            検温後、正面玄関西側の専用入場口よりご入場ください。
+            <div class="tuto-img">
+                <img src="<?php echo get_template_directory_uri(); ?>/assets/img/大会魅力2.jpg" alt="">
+            </div>
+            <h2 class="f27  bold mtop100 mtop100">大会本部にて受付を行います。</h2>
+            <div class="att-border"></div>
+
+
+
+            当日は可能な限り、選手本人に行なっていただきます。<br>
+            分からない場合はスタッフがサポートを行います。<br>
+            保護者の方は可能な限り手を出さず、お子さまの頑張りを見守ってください。
+            <div class="tuto-img">
+                <img src="<?php echo get_template_directory_uri(); ?>/assets/img/大会魅力2.jpg" alt="">
+            </div>
+
+
+            <h2 class="f27  bold mtop100">受付の流れ（8：00～8：30）</h2>
+            <div class="att-border"></div>
+
+            <ul>
+                <li> ①自分の名札を取る
+                </li>
+                <div class="tuto-img">
+                    <img src="<?php echo get_template_directory_uri(); ?>/assets/img/大会魅力2.jpg" alt="">
+                </div>
+
+                <li> ②エントリー代を渡す
+                </li>
+                <div class="tuto-img">
+                    <img src="<?php echo get_template_directory_uri(); ?>/assets/img/大会魅力2.jpg" alt="">
+                </div>
+
+                <li> ③自分の名前、所属先を伝えて番号の抽選をする
+                </li>
+                <div class="tuto-img">
+                    <img src="<?php echo get_template_directory_uri(); ?>/assets/img/大会魅力2.jpg" alt="">
+                </div>
+
+                <li> ④名札を渡してドロー表に名札を貼ってもらう
+                </li>
+                <div class="tuto-img">
+                    <img src="<?php echo get_template_directory_uri(); ?>/assets/img/大会魅力2.jpg" alt="">
+                </div>
+
+            </ul>
+
+
+            <h2 class="f27  bold mtop100">受付後は8：00からコートでウォーミングアップができます</h2>
+            <div class="att-border"></div>
+
+
+
+            コートに入れるのは参加選手のみです。<br>
+            はじめての選手は勇気を出して、他の選手の練習に声をかけて、混ぜてもらおう！<br>
+            試合の前に体を動かしてきちんと準備をする習慣をつけよう！<br>
+            <div class="tuto-img">
+                <img src="<?php echo get_template_directory_uri(); ?>/assets/img/大会魅力2.jpg" alt="">
+            </div>
+
+            <h2 class="f27  bold mtop100"> 大会説明（8：30前後）</h2>
+            <div class="att-border"></div>
+
+
+
+            大会本部でコーチから大会の説明を行います。<br>
+            ルール、試合の進め方やチャレンジマッチなどについて説明をします。<br>
+            はじめての選手はできるだけ前の方や声が聞こえやすいところで話を聞こう！<br>
+            分からないことがあったらコーチに聞いてみよう！<br>
+            <div class="mb15"></div>
+            <a href="" download>詳しい試合ルールはこちら⇒PDF</a>
+            <div class="mb15"></div>
+            <div class="tuto-img">
+                <img src="<?php echo get_template_directory_uri(); ?>/assets/img/大会魅力2.jpg" alt="">
+            </div>
+            <h2 class="f27  bold mtop100">試合開始（8：45前後）</h2>
+            <div class="att-border"></div>
+
+
+
+            トーナメント敗退後はチャレンジマッチ（4ゲーム先取）に参加できます。<br>
+            チャレンジマッチに積極的に参加しよう！<br>
+            試合経験をたくさん積んでレベルアップしよう！！<br>
+            <h2 class="f27  bold mtop100">終了時間について</h2>
+            <div class="att-border"></div>
+
+
+
+            トーナメントのドロー数は当日の参加数によって変動します。<br>
+            閉会式等はありませんので自由解散となります。<br>
+            大会は通常15時～17時ごろ終了となります。<br>
+            チャレンジマッチは本戦決勝まで並行して実施します。<br>
+            試合が終わったコートは参加選手の皆様へ開放をします（17：45まで）
+
+
+
+        </div>
+
+
+    </div>
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+<?php elseif (is_page('about') && is_parent_slug() === 'rental') : ?>
+<?php elseif (is_page('system') && is_parent_slug() === 'rental') : ?>
+    <div class="topimg">
+        <img src="<?php echo get_template_directory_uri(); ?>/assets/img/m-rental.jpg" alt="">
+    </div>
+    <div class="doron">
+        <a href="<?php echo home_url(); ?>#tube">名古屋グリーンの魅力が詰まったプロモーションMOVIEはこちら</a>
+    </div>
+
+    <div class="r-sys-wrap">
+
+        <div class="r-sys-top ">
+            <h2 id="rental">貸出時間</h2>
+            <table class="rental-table" cellspacing="0">
+                <tbody>
+                    <tr>
+                        <td class="bgc-green c-white">平日</td>
+                        <td>9:00～18:00</td>
+                    </tr>
+                    <tr>
+                        <td class="bgc-green c-white">ビジターの方</td>
+                        <td>8:00～18:00</td>
+                    </tr>
+                </tbody>
+            </table>
+            <!--
             <img class="r450" src="<?php echo get_template_directory_uri(); ?>/assets/img/レンタル①.jpg" alt="">
 -->
-            </div>
-            <div class="r-sys-top ">
-                <h2>利用料金</h2>
-                <table class="rental-table" cellspacing="0">
-                    <tbody>
-                        <tr>
-                            <td></td>
-                            <td class="bgc-gray ">会員・スクール生</td>
-                            <td class="bgc-gray ">ビジター</td>
-                        </tr>
-                        <tr>
-                            <td class="bgc-green c-white">平日</td>
-                            <td>660円</td>
-                            <td>1,320円</td>
-                        </tr>
-                        <tr>
-                            <td class="bgc-green c-white">土日祝日</td>
-                            <td>1,320円</td>
-                            <td>2,640円</td>
-                        </tr>
-                    </tbody>
-                </table>
+        </div>
+        <div class="r-sys-top ">
+            <h2>利用料金</h2>
+            <table class="rental-table" cellspacing="0">
+                <tbody>
+                    <tr>
+                        <td></td>
+                        <td class="bgc-gray ">会員・スクール生</td>
+                        <td class="bgc-gray ">ビジター</td>
+                    </tr>
+                    <tr>
+                        <td class="bgc-green c-white">平日</td>
+                        <td>660円</td>
+                        <td>1,320円</td>
+                    </tr>
+                    <tr>
+                        <td class="bgc-green c-white">土日祝日</td>
+                        <td>1,320円</td>
+                        <td>2,640円</td>
+                    </tr>
+                </tbody>
+            </table>
 
-                <table class="rental-table" cellspacing="0">
-                    <tbody>
-                        <tr>
-                            <td></td>
-                            <td class="bgc-gray ">1日料金</td>
-                        </tr>
-                        <tr>
-                            <td class="bgc-green c-white">平日</td>
-                            <td>10,560円</td>
-                        </tr>
-                        <tr>
-                            <td class="bgc-green c-white">土日祝日</td>
-                            <td>23,760円</td>
-                        </tr>
-                    </tbody>
-                </table>
+            <table class="rental-table" cellspacing="0">
+                <tbody>
+                    <tr>
+                        <td></td>
+                        <td class="bgc-gray ">1日料金</td>
+                    </tr>
+                    <tr>
+                        <td class="bgc-green c-white">平日</td>
+                        <td>10,560円</td>
+                    </tr>
+                    <tr>
+                        <td class="bgc-green c-white">土日祝日</td>
+                        <td>23,760円</td>
+                    </tr>
+                </tbody>
+            </table>
 
-                <!--
+            <!--
             <img class="csc-bottom2 r460" src="<?php echo get_template_directory_uri(); ?>/assets/img/料金表1時間.jpg" alt="">
             <img class="r440" src="<?php echo get_template_directory_uri(); ?>/assets/img/1日料金.jpg" alt="">
 -->
 
-                <p>※最大で12面ご利用いただけます。(オムニコート12面)</p>
-                <p>※レンタルラケット、レンタルボールもございます。</p>
-                <p>※ナイター照明4面完備(使用料金、1面1時間あたり550円)</p>
-            </div>
-            <div class="r-sys-top ">
-                <h2>キャンセル料金</h2>
+            <p>※最大で12面ご利用いただけます。(オムニコート12面)</p>
+            <p>※レンタルラケット、レンタルボールもございます。</p>
+            <p>※ナイター照明4面完備(使用料金、1面1時間あたり550円)</p>
+        </div>
+        <div class="r-sys-top ">
+            <h2>キャンセル料金</h2>
 
-                <table class="rental-table" cellspacing="0">
-                    <tbody>
-                        <tr>
-                            <td colspan="3" class="bgc-gray ">ご利用コート面数1～4面</td>
-                        </tr>
-                        <tr>
-                            <td rowspan="2" class="bgc-green c-white">平日</td>
-                            <td>前日</td>
-                            <td>無料</td>
-                        </tr>
-                        <tr>
-                            <td>当日</td>
-                            <td>半額</td>
-                        </tr>
-                        <tr>
-                            <td rowspan="3" class="bgc-green c-white">土日祝日</td>
-                            <td>前々日</td>
-                            <td>無料</td>
-                        </tr>
-                        <tr>
-                            <td>前日</td>
-                            <td>半額</td>
-                        </tr>
-                        <tr>
-                            <td>当日</td>
-                            <td>全額</td>
-                        </tr>
-                    </tbody>
-                </table>
-                <table class="rental-table" cellspacing="0">
-                    <tbody>
-                        <tr>
-                            <td colspan="3" class="bgc-gray ">ご利用コート面数5～12面（平日・個人利用）</td>
-                        </tr>
-                        <tr>
-                            <td class="bgc-green c-white">予約日の1週間前</td>
-                            <td>無料</td>
-                        </tr>
-                        <tr>
-                            <td class="bgc-green c-white">1週間から前日</td>
-                            <td>半額</td>
-                        </tr>
-                        <tr>
-                            <td class="bgc-green c-white">当日</td>
-                            <td>全額</td>
-                        </tr>
+            <table class="rental-table" cellspacing="0">
+                <tbody>
+                    <tr>
+                        <td colspan="3" class="bgc-gray ">ご利用コート面数1～4面</td>
+                    </tr>
+                    <tr>
+                        <td rowspan="2" class="bgc-green c-white">平日</td>
+                        <td>前日</td>
+                        <td>無料</td>
+                    </tr>
+                    <tr>
+                        <td>当日</td>
+                        <td>半額</td>
+                    </tr>
+                    <tr>
+                        <td rowspan="3" class="bgc-green c-white">土日祝日</td>
+                        <td>前々日</td>
+                        <td>無料</td>
+                    </tr>
+                    <tr>
+                        <td>前日</td>
+                        <td>半額</td>
+                    </tr>
+                    <tr>
+                        <td>当日</td>
+                        <td>全額</td>
+                    </tr>
+                </tbody>
+            </table>
+            <table class="rental-table" cellspacing="0">
+                <tbody>
+                    <tr>
+                        <td colspan="3" class="bgc-gray ">ご利用コート面数5～12面（平日・個人利用）</td>
+                    </tr>
+                    <tr>
+                        <td class="bgc-green c-white">予約日の1週間前</td>
+                        <td>無料</td>
+                    </tr>
+                    <tr>
+                        <td class="bgc-green c-white">1週間から前日</td>
+                        <td>半額</td>
+                    </tr>
+                    <tr>
+                        <td class="bgc-green c-white">当日</td>
+                        <td>全額</td>
+                    </tr>
 
-                    </tbody>
-                </table>
+                </tbody>
+            </table>
 
-                <!--
+            <!--
             <img class="csc-bottom2 r470" src="<?php echo get_template_directory_uri(); ?>/assets/img/レンタル③.jpg" alt="">
             <img class="r480" src="<?php echo get_template_directory_uri(); ?>/assets/img/レンタル④.jpg" alt="">
 -->
-                <p>※前日のキャンセル受付は18時までとなります。</p>
-            </div>
-            <div class="r-sys-top csc-bottom">
-                <h2>インドアコートのレンタル</h2>
+            <p>※前日のキャンセル受付は18時までとなります。</p>
+        </div>
+        <div class="r-sys-top csc-bottom">
+            <h2>インドアコートのレンタル</h2>
 
 
-                <table class="rental-table" cellspacing="0">
-                    <tbody>
-                        <tr>
-                            <td></td>
-                            <td class="bgc-gray ">18時まで</td>
-                            <td class="bgc-gray ">18時以降</td>
-                        </tr>
-                        <tr>
-                            <td class="bgc-green c-white">スクール生・クラブ会員の方</td>
-                            <td>2,040円</td>
-                            <td>2,720円</td>
-                        </tr>
-                        <tr>
-                            <td class="bgc-green c-white">ビジターの方</td>
-                            <td>2,772円</td>
-                            <td>3,432円</td>
-                        </tr>
-                    </tbody>
-                </table>
-                <!--
+            <table class="rental-table" cellspacing="0">
+                <tbody>
+                    <tr>
+                        <td></td>
+                        <td class="bgc-gray ">18時まで</td>
+                        <td class="bgc-gray ">18時以降</td>
+                    </tr>
+                    <tr>
+                        <td class="bgc-green c-white">スクール生・クラブ会員の方</td>
+                        <td>2,040円</td>
+                        <td>2,720円</td>
+                    </tr>
+                    <tr>
+                        <td class="bgc-green c-white">ビジターの方</td>
+                        <td>2,772円</td>
+                        <td>3,432円</td>
+                    </tr>
+                </tbody>
+            </table>
+            <!--
             <img class="r490" src="<?php echo get_template_directory_uri(); ?>/assets/img/レンタル⑤.jpg" alt="">
             -->
-                <p class="csc-bold">キャンセル料金・・・ 前々日は無料、前日は半額、当日は全額をお支払いただきます。</p>
-                <a href="<?php echo get_template_directory_uri(); ?>/assets/img/インドアレンタルコート（料金・コート表）.pdf" download="" class="s-sys-det">ご利用可能な時間帯はこちらからご覧ください <span>&gt;</span></a>
+            <p class="csc-bold">キャンセル料金・・・ 前々日は無料、前日は半額、当日は全額をお支払いただきます。</p>
+            <a href="<?php echo get_template_directory_uri(); ?>/assets/img/インドアレンタルコート（料金・コート表）.pdf" download="" class="s-sys-det">ご利用可能な時間帯はこちらからご覧ください <span>&gt;</span></a>
 
-            </div>
-            <div class="r-sys-top csc-bottom">
-                <h2>ナイターコートのレンタル</h2>
-                <table class="rental-table" cellspacing="0">
+        </div>
+        <div class="r-sys-top csc-bottom">
+            <h2>ナイターコートのレンタル</h2>
+            <table class="rental-table" cellspacing="0">
 
-                    <tbody>
-                        <tr>
-                            <td class="bgc-gray ">会員・スクール生</td>
-                            <td class="bgc-gray ">ビジター</td>
-                        </tr>
-                        <tr>
-                            <td>2,112円</td>
-                            <td>2,772円</td>
-                        </tr>
-                    </tbody>
-                </table>
+                <tbody>
+                    <tr>
+                        <td class="bgc-gray ">会員・スクール生</td>
+                        <td class="bgc-gray ">ビジター</td>
+                    </tr>
+                    <tr>
+                        <td>2,112円</td>
+                        <td>2,772円</td>
+                    </tr>
+                </tbody>
+            </table>
 
 
-                <!--
+            <!--
             <img class="r500" src="<?php echo get_template_directory_uri(); ?>/assets/img/アウトドアレンタル料金表.jpg" alt="">
 --> <a href="<?php echo get_template_directory_uri(); ?>/assets/img/アウトドアナイターご案内.pdf" download="" class="s-sys-det">ご利用可能な時間帯はこちらからご覧ください <span>&gt;</span></a>
 
-            </div>
+        </div>
 
-            <div class="r-sys-top csc-bottom">
-                <h2>予約受付</h2>
-                <p>・前月1日より受付させていただきます。</p>
-                <p>・ご予約はお電話または当クラブのホームページからメールにてお申し込みください。</p>
-                <p>・利用料金は当日、受付時にフロントにてお支払ください。</p>
-                <p>当日、翌日のレンタルのお申し込みは、お電話にて受け付けております。
-                    折り返しお電話で申込完了となります。</p>
+        <div class="r-sys-top csc-bottom">
+            <h2>予約受付</h2>
+            <p>・前月1日より受付させていただきます。</p>
+            <p>・ご予約はお電話または当クラブのホームページからメールにてお申し込みください。</p>
+            <p>・利用料金は当日、受付時にフロントにてお支払ください。</p>
+            <p>当日、翌日のレンタルのお申し込みは、お電話にて受け付けております。
+                折り返しお電話で申込完了となります。</p>
+
+        </div>
+        <a href="<?php echo get_page_link(113); ?>"><img src="<?php echo get_template_directory_uri(); ?>/assets/img/レンタルコートバナー.png" alt=""></a>
+
+    </div>
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+<?php elseif (is_page('facilities')) : ?>
+    <div class="faci-wrap">
+        <div class="faci-top">
+            <h2>施設紹介</h2>
+        </div>
+        <h3>準備中...</h3>
+    </div>
+
+
+
+
+<?php elseif (is_page('stuff')) : ?>
+    <div class="stuff-wrap">
+        <div class="stuff-top">
+            <h2>スタッフ紹介</h2>
+        </div>
+
+    </div>
+
+    <?php
+    $args = array(
+        'post_type' => 'staff',
+        'posts_per_page' => 30,
+        'order' => 'ASC',
+    );
+    $the_query = new WP_Query($args);
+    if ($the_query->have_posts()) :
+    ?>
+        <div class="staffs">
+
+
+            <?php while ($the_query->have_posts()) : $the_query->the_post(); ?>
+                <div class="staff">
+                    <div class="staff_name">
+                        <h2><?php echo CFS()->get("s_name"); ?></h2>
+                    </div>
+                    <div class="staff_info">
+                        <div class="staff_info_left">
+                            <?php if (post_custom('s_img')) : ?>
+
+                                <div class="staff_img">
+                                    <img src="<?php echo CFS()->get("s_img"); ?>" alt="" loading="lazy">
+                                </div>
+                            <?php endif ?>
+
+                        </div>
+
+                        <div class="staff_info_right">
+
+                            <?php if (post_custom('s_like')) : ?>
+                                <div class="staff_info_like">
+                                    <div class="sil">[趣味]</div>
+                                    <div class="sir"><?php echo CFS()->get("s_like"); ?></div>
+                                </div>
+                            <?php endif ?>
+
+
+
+                            <?php if (post_custom('s_pr')) : ?>
+                                <div class="staff_info_pr">
+                                    <div class="sil">[コメント]</div>
+                                    <div class="sir"><?php echo CFS()->get("s_pr"); ?></div>
+                                </div>
+                            <?php endif ?>
+
+
+
+
+
+
+                        </div>
+                    </div>
+                </div>
+            <?php endwhile;; ?>
+        </div>
+        <div class="navigation">
+            <?php if (function_exists('wp_pagenavi')) : ?>
+                <?php wp_pagenavi(array('query' => $the_query)); ?>
+            <?php else : ?>
+            <?php endif; ?>
+        </div>
+
+    <?php endif;
+    wp_reset_postdata()
+    ?>
+
+
+    <?php  ?>
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+<?php elseif (is_page('inquiry')) : ?>
+    <div class="inq-top">
+        <h2>お問い合わせ</h2>
+    </div>
+    <div class="inq-inq-wrap">
+        <?php echo do_shortcode('[contact-form-7 id="126" title="お問い合わせ"]'); ?>
+    </div>
+
+<?php elseif (is_page('lesson')) : ?>
+    <div class="topimg">
+        <img src="<?php echo get_template_directory_uri(); ?>/assets/img/m-system.jpg" alt="">
+    </div>
+    <div class="taiken3-wrap">
+        <div class="taiken3-top">
+            <p>ご入会を検討されている方は、ぜひ無料体験レッスンをご利用ください！はじめての方から上級者まで、レベル、目的、年齢に合わせたクラスをご用意しています。</p>
+            <p>まだラケットをお持ちでない方も安心！</p>
+            <p>ラケットは無料で貸し出ししています。</p>
+
+
+            <div class="bold mtop50">
+                <p> 一般（大人）クラスは2回まで無料で体験できます！</p>
+                <p> ジュニアクラス、ソフトテニスクラスは1回無料で体験できます！</p>
+
 
             </div>
-            <a href="<?php echo get_page_link(113); ?>"><img src="<?php echo get_template_directory_uri(); ?>/assets/img/レンタルコートバナー.png" alt=""></a>
+        </div>
+
+        <h2 class="mtop50">体験レッスンご予約の流れ</h2>
+        <div class="att-border"></div>
+        <div class="taiken3-mid">
+            <h3>ステップ1</h3>
+            <p>下記よりご希望のクラスのレベル、時間割等をご確認ください。</p>
+            <a href="<?php echo get_page_link(68); ?>" class="taiken3-btn">一般クラスレベル表はこちら<span>></span></a>
+            <a href="<?php echo get_page_link(117); ?>" class="taiken3-btn">ジュニアクラスレベル表はこちら<span>></span></a>
+            <a href="<?php echo get_page_link(174); ?>" class="taiken3-btn">ジュニアソフトテニスクラスについて<span>></span></a>
+            <a href="<?php echo get_page_link(70); ?>" class="taiken3a-btn mtop50">各クラス時間割表はこちら<span>></span></a>
+
+            <h3>ステップ2</h3>
+            <p>本ページの申込フォームより、ご予約ください。</p>
+            <a href="#taiken3-j" class="taiken3b-btn ">申込みフォームへ</a>
 
         </div>
 
 
+        <h2 class="mtop100">お電話でもご予約いただけます</h2>
+        <div class="att-border"></div>
+        <p>体験レッスンについて、クラスのレベル、レッスン内容などご不明な点がございましたら、下記フォームまたはお電話からお気軽に問い合わせください</p>
 
+        <div id="taiken3-j" class="taiken-tel taiken3c-btn ">
+            <i class="fa-solid fa-phone "></i><a href="tel:" class="">0565-48-1121</a>
 
-
-
-
-
-
-
-
-
-
-
-
-    <?php elseif (is_page('facilities')) : ?>
-        <div class="faci-wrap">
-            <div class="faci-top">
-                <h2>施設紹介</h2>
-            </div>
-            <h3>準備中...</h3>
         </div>
 
 
+    </div>
+
+    <div class="inq-inq-wrap">
+        <?php echo do_shortcode('[contact-form-7 id="130" title="お試しレッスン"]'); ?>
+    </div>
 
 
-    <?php elseif (is_page('stuff')) : ?>
-        <div class="stuff-wrap">
-            <div class="stuff-top">
-                <h2>スタッフ紹介</h2>
+<?php elseif (is_page('genentry')) : ?>
+    <div class="inq-top">
+        <h2>一般大会エントリー</h2>
+        <div class="inq-top-txt">
+            <div class="obogbtn">
+                ※月例OBOG大会のエントリーは別途<a href="<?php echo get_page_link(79); ?>#obog">こちら</a>からお願い致します。
+
             </div>
 
         </div>
+    </div>
+    <div class="inq-inq-wrap">
+
+        <?php echo do_shortcode('[contact-form-7 id="127" title="大会エントリー"]'); ?>
+    </div>
+
+<?php elseif (is_page('jrentry')) : ?>
+    <div class="inq-top">
+        <h2>ジュニア大会エントリー</h2>
+    </div>
+    <div class="inq-inq-wrap">
+        <?php echo do_shortcode('[contact-form-7 id="128" title="ジュニア大会エントリー"]'); ?>
+    </div>
+
+<?php elseif (is_page('reserverental')) : ?>
+    <div class="inq-top">
+        <h2>レンタルコート予約</h2>
+        <div class="res-top">
+            <h3>レンタルコートご予約の優先順について</h3>
+            <p>次月レンタルコートのご予約は前月1日の営業開始時間からお電話にて承ります。</p>
+            <div class="res-p">
+                <div class="res-span">平日の場合</div>
+                9：00～
+            </div>
+
+            <div class="res-p">
+                <div class="res-span">土日祝の場合</div>
+                8：00～
+            </div>
+            <p>※1月につきましては、1・2日が休館日となるため3日より予約を承ります。</p>
+
+            <p>予約は先着順となります。<br>
+                お電話での予約を優先させていただくため、WEBからのご予約は予約開始日の翌日から有効とさせていただきます。</p>
+        </div>
+        <div class="res-btn">
+            <a href="<?php echo get_page_link(81); ?>">システム/料金はこちら<span>&gt;</span> </a>
+        </div>
+    </div>
+    <div class="inq-inq-wrap">
+        <?php echo do_shortcode('[contact-form-7 id="129" title="レンタルコート予約"]'); ?>
+    </div>
+
+
+
+<?php elseif (is_page('keijiban')) : ?>
+    <div class="keizi-wrap">
+        <?php the_content() ?>
+
+    </div>
+
+
+<?php elseif (is_page('daiko')) : ?>
+    <div class="keizi-wrap">
+        <?php the_content() ?>
+
+    </div>
+
+
+
+<?php elseif (is_page('thanks')) : ?>
+    <div class="thanks">
+        <h2>お問い合わせありがとうございます</h2>
+        <p>ご記入していただいた情報は無事に送信されました。</p>
+        <a href="<?php echo home_url(); ?>">トップページに戻る</a>
+
+    </div>
+
+<?php elseif (is_page('test0819')) : ?>
+    <div class="topimg">
+        <img src="<?php echo get_template_directory_uri(); ?>/assets/img/m-system.jpg" alt="">
+    </div>
+    <div class="taiken3-wrap">
+        <div class="taiken3-top">
+            <p>ご入会を検討されている方は、ぜひ無料体験レッスンをご利用ください！はじめての方から上級者まで、レベル、目的、年齢に合わせたクラスをご用意しています。</p>
+            <p>まだラケットをお持ちでない方も安心！</p>
+            <p>ラケットは無料で貸し出ししています。</p>
+
+
+            <div class="bold mtop50">
+                <p> 一般（大人）クラスは2回まで無料で体験できます！</p>
+                <p> ジュニアクラス、ソフトテニスクラスは1回無料で体験できます！</p>
+
+
+            </div>
+        </div>
+
+        <h2 class="mtop50">体験レッスンご予約の流れ</h2>
+        <div class="att-border"></div>
+        <div class="taiken3-mid">
+            <h3>ステップ1</h3>
+            <p>下記よりご希望のクラスのレベル、時間割等をご確認ください。</p>
+            <a href="<?php echo get_page_link(68); ?>" class="taiken3-btn">一般クラスレベル表はこちら<span>></span></a>
+            <a href="<?php echo get_page_link(117); ?>" class="taiken3-btn">ジュニアクラスレベル表はこちら<span>></span></a>
+            <a href="<?php echo get_page_link(174); ?>" class="taiken3-btn">ジュニアソフトテニスクラスについて<span>></span></a>
+            <a href="<?php echo get_page_link(70); ?>" class="taiken3a-btn mtop50">各クラス時間割表はこちら<span>></span></a>
+
+            <h3>ステップ2</h3>
+            <p>本ページの申込フォームより、ご予約ください。</p>
+            <a href="#taiken3-j" class="taiken3b-btn ">申込みフォームへ</a>
+
+        </div>
+
+
+        <h2 class="mtop100">お電話でもご予約いただけます</h2>
+        <div class="att-border"></div>
+        <p>体験レッスンについて、クラスのレベル、レッスン内容などご不明な点がございましたら、下記フォームまたはお電話からお気軽に問い合わせください</p>
+
+        <div id="taiken3-j" class="taiken-tel taiken3c-btn ">
+            <i class="fa-solid fa-phone "></i><a href="tel:" class="">0565-48-1121</a>
+
+        </div>
+
+
+    </div>
+
+    <div class="inq-inq-wrap">
+        <?php echo do_shortcode('[contact-form-7 id="130" title="お試しレッスン"]'); ?>
+    </div>
+
+<?php elseif (is_page('test0820')) : ?>
+    <div class="topimg">
+        <img src="<?php echo get_template_directory_uri(); ?>/assets/img/m-system.jpg" alt="">
+    </div>
+    <div class="taiken3-wrap-2">
+        <div class="taiken3-top-2">
+            <p>ご入会を検討されている方は、ぜひ無料体験レッスンをご利用ください！はじめての方から上級者まで、レベル、目的、年齢に合わせたクラスをご用意しています。</p>
+            <p>まだラケットをお持ちでない方も安心！</p>
+            <p>ラケットは無料で貸し出ししています。</p>
+
+
+            <div class="bold mtop50">
+                <p> 一般（大人）クラスは2回まで無料で体験できます！</p>
+                <p> ジュニアクラス、ソフトテニスクラスは1回無料で体験できます！</p>
+
+
+            </div>
+        </div>
+
+        <h2 class="mtop50">体験レッスンご予約の流れ</h2>
+        <div class="att-border"></div>
+        <div class="taiken3-mid-2">
+            <h3>ステップ1</h3>
+            <p>下記よりご希望のクラスのレベル、時間割等をご確認ください。</p>
+            <a href="" class="taiken3-btn-2">一般クラスレベル表はこちら<span>></span></a>
+            <a href="" class="taiken3-btn-2">ジュニアクラスレベル表はこちら<span>></span></a>
+            <a href="" class="taiken3-btn-2">ジュニアソフトテニスクラスについて<span>></span></a>
+            <a href="" class="taiken3a-btn-2 mtop50">各クラス時間割表はこちら<span>></span></a>
+
+            <h3>ステップ2</h3>
+            <p>本ページの申込フォームより、ご予約ください。</p>
+            <a href="" class="taiken3b-btn-2 ">申込みフォームへ</a>
+
+        </div>
+
+
+        <h2 class="mtop100">お電話でもご予約いただけます</h2>
+        <div class="att-border"></div>
+        <p>体験レッスンについて、クラスのレベル、レッスン内容などご不明な点がございましたら、下記フォームまたはお電話からお気軽に問い合わせください</p>
+
+        <div class="taiken-tel-2 taiken3c-btn-2 ">
+            <i class="fa-solid fa-phone "></i><a href="tel:" class="">0565-48-1121</a>
+
+        </div>
+
+
+    </div>
+
+    <div class="inq-inq-wrap">
+        <?php echo do_shortcode('[contact-form-7 id="130" title="お試しレッスン"]'); ?>
+    </div>
+
+
+
+<?php elseif (is_page('tournament-schedule')) : ?>
+    <div class="ts-wrap">
+        <div class="stuff-top">
+            <h2>大会スケジュール</h2>
+        </div>
+
+
 
         <?php
         $args = array(
-            'post_type' => 'staff',
+            'post_type' => 'tournament-schedule',
             'posts_per_page' => 30,
+            'meta_key' => 'ts-day',
+            'orderby' => 'meta_value',
             'order' => 'ASC',
         );
         $the_query = new WP_Query($args);
         if ($the_query->have_posts()) :
         ?>
-            <div class="staffs">
+            <div class="tournament-schedules">
 
 
                 <?php while ($the_query->have_posts()) : $the_query->the_post(); ?>
-                    <div class="staff">
-                        <div class="staff_name">
-                            <h2><?php echo CFS()->get("s_name"); ?></h2>
+                    <div class="tournament-schedule">
+                        <div class="ts-day">
+                            <?php echo date('Y/m/d', strtotime(CFS()->get('ts-day'))); ?> </div>
+                        <div class="ts-grade">
+                            <?php
+                            $values = CFS()->get('ts-grade');
+                            foreach ($values as $key => $label) :
+                            ?>
+                                <span><?php echo $label; ?></span>
+                            <?php endforeach; ?>
                         </div>
-                        <div class="staff_info">
-                            <div class="staff_info_left">
-                                <?php if (post_custom('s_img')) : ?>
-
-                                    <div class="staff_img">
-                                        <img src="<?php echo CFS()->get("s_img"); ?>" alt="" loading="lazy">
-                                    </div>
-                                <?php endif ?>
-
-                            </div>
-
-                            <div class="staff_info_right">
-
-                                <?php if (post_custom('s_like')) : ?>
-                                    <div class="staff_info_like">
-                                        <div class="sil">[趣味]</div>
-                                        <div class="sir"><?php echo CFS()->get("s_like"); ?></div>
-                                    </div>
-                                <?php endif ?>
-
-
-
-                                <?php if (post_custom('s_pr')) : ?>
-                                    <div class="staff_info_pr">
-                                        <div class="sil">[コメント]</div>
-                                        <div class="sir"><?php echo CFS()->get("s_pr"); ?></div>
-                                    </div>
-                                <?php endif ?>
-
-
-
-
-
-
-                            </div>
+                        <div class="ts-tournament">
+                            <?php
+                            $values = CFS()->get('ts-tournament');
+                            foreach ($values as $key => $label) :
+                            ?>
+                                <span><?php echo $label; ?></span>
+                            <?php endforeach; ?>
                         </div>
+
                     </div>
+
+
                 <?php endwhile;; ?>
-            </div>
-            <div class="navigation">
-                <?php if (function_exists('wp_pagenavi')) : ?>
-                    <?php wp_pagenavi(array('query' => $the_query)); ?>
-                <?php else : ?>
-                <?php endif; ?>
             </div>
 
         <?php endif;
         wp_reset_postdata()
         ?>
 
+    </div>
+<?php else : ?>
+    <div class="agenda-wrap">
+        <?php the_content() ?>
+    </div>
 
-        <?php  ?>
 
 
+<?php endif; ?>
 
-
-
-
-
-
-
-
-
-
-
-
-    <?php elseif (is_page('inquiry')) : ?>
-        <div class="inq-top">
-            <h2>お問い合わせ</h2>
-        </div>
-        <div class="inq-inq-wrap">
-            <?php echo do_shortcode('[contact-form-7 id="126" title="お問い合わせ"]'); ?>
-        </div>
-
-    <?php elseif (is_page('lesson')) : ?>
-        <div class="topimg">
-            <img src="<?php echo get_template_directory_uri(); ?>/assets/img/m-system.jpg" alt="">
-        </div>
-        <div class="taiken3-wrap">
-            <div class="taiken3-top">
-                <p>ご入会を検討されている方は、ぜひ無料体験レッスンをご利用ください！はじめての方から上級者まで、レベル、目的、年齢に合わせたクラスをご用意しています。</p>
-                <p>まだラケットをお持ちでない方も安心！</p>
-                <p>ラケットは無料で貸し出ししています。</p>
-
-
-                <div class="bold mtop50">
-                    <p> 一般（大人）クラスは2回まで無料で体験できます！</p>
-                    <p> ジュニアクラス、ソフトテニスクラスは1回無料で体験できます！</p>
-
-
-                </div>
-            </div>
-
-            <h2 class="mtop50">体験レッスンご予約の流れ</h2>
-            <div class="att-border"></div>
-            <div class="taiken3-mid">
-                <h3>ステップ1</h3>
-                <p>下記よりご希望のクラスのレベル、時間割等をご確認ください。</p>
-                <a href="<?php echo get_page_link(68); ?>" class="taiken3-btn">一般クラスレベル表はこちら<span>></span></a>
-                <a href="<?php echo get_page_link(117); ?>" class="taiken3-btn">ジュニアクラスレベル表はこちら<span>></span></a>
-                <a href="<?php echo get_page_link(174); ?>" class="taiken3-btn">ジュニアソフトテニスクラスについて<span>></span></a>
-                <a href="<?php echo get_page_link(70); ?>" class="taiken3a-btn mtop50">各クラス時間割表はこちら<span>></span></a>
-
-                <h3>ステップ2</h3>
-                <p>本ページの申込フォームより、ご予約ください。</p>
-                <a href="#taiken3-j" class="taiken3b-btn ">申込みフォームへ</a>
-
-            </div>
-
-
-            <h2 class="mtop100">お電話でもご予約いただけます</h2>
-            <div class="att-border"></div>
-            <p>体験レッスンについて、クラスのレベル、レッスン内容などご不明な点がございましたら、下記フォームまたはお電話からお気軽に問い合わせください</p>
-
-            <div id="taiken3-j" class="taiken-tel taiken3c-btn ">
-                <i class="fa-solid fa-phone "></i><a href="tel:" class="">0565-48-1121</a>
-
-            </div>
-
-
-        </div>
-
-        <div class="inq-inq-wrap">
-            <?php echo do_shortcode('[contact-form-7 id="130" title="お試しレッスン"]'); ?>
-        </div>
-
-
-    <?php elseif (is_page('genentry')) : ?>
-        <div class="inq-top">
-            <h2>一般大会エントリー</h2>
-            <div class="inq-top-txt">
-                <div class="obogbtn">
-                    ※月例OBOG大会のエントリーは別途<a href="<?php echo get_page_link(79); ?>#obog">こちら</a>からお願い致します。
-
-                </div>
-
-            </div>
-        </div>
-        <div class="inq-inq-wrap">
-
-            <?php echo do_shortcode('[contact-form-7 id="127" title="大会エントリー"]'); ?>
-        </div>
-
-    <?php elseif (is_page('jrentry')) : ?>
-        <div class="inq-top">
-            <h2>ジュニア大会エントリー</h2>
-        </div>
-        <div class="inq-inq-wrap">
-            <?php echo do_shortcode('[contact-form-7 id="128" title="ジュニア大会エントリー"]'); ?>
-        </div>
-
-    <?php elseif (is_page('reserverental')) : ?>
-        <div class="inq-top">
-            <h2>レンタルコート予約</h2>
-            <div class="res-top">
-                <h3>レンタルコートご予約の優先順について</h3>
-                <p>次月レンタルコートのご予約は前月1日の営業開始時間からお電話にて承ります。</p>
-                <div class="res-p">
-                    <div class="res-span">平日の場合</div>
-                    9：00～
-                </div>
-
-                <div class="res-p">
-                    <div class="res-span">土日祝の場合</div>
-                    8：00～
-                </div>
-                <p>※1月につきましては、1・2日が休館日となるため3日より予約を承ります。</p>
-
-                <p>予約は先着順となります。<br>
-                    お電話での予約を優先させていただくため、WEBからのご予約は予約開始日の翌日から有効とさせていただきます。</p>
-            </div>
-            <div class="res-btn">
-                <a href="<?php echo get_page_link(81); ?>">システム/料金はこちら<span>&gt;</span> </a>
-            </div>
-        </div>
-        <div class="inq-inq-wrap">
-            <?php echo do_shortcode('[contact-form-7 id="129" title="レンタルコート予約"]'); ?>
-        </div>
-
-
-
-    <?php elseif (is_page('keijiban')) : ?>
-        <div class="keizi-wrap">
-            <?php the_content() ?>
-
-        </div>
-
-
-    <?php elseif (is_page('daiko')) : ?>
-        <div class="keizi-wrap">
-            <?php the_content() ?>
-
-        </div>
-
-
-
-    <?php elseif (is_page('thanks')) : ?>
-        <div class="thanks">
-            <h2>お問い合わせありがとうございます</h2>
-            <p>ご記入していただいた情報は無事に送信されました。</p>
-            <a href="<?php echo home_url(); ?>">トップページに戻る</a>
-
-        </div>
-
-    <?php elseif (is_page('test0819')) : ?>
-        <div class="topimg">
-            <img src="<?php echo get_template_directory_uri(); ?>/assets/img/m-system.jpg" alt="">
-        </div>
-        <div class="taiken3-wrap">
-            <div class="taiken3-top">
-                <p>ご入会を検討されている方は、ぜひ無料体験レッスンをご利用ください！はじめての方から上級者まで、レベル、目的、年齢に合わせたクラスをご用意しています。</p>
-                <p>まだラケットをお持ちでない方も安心！</p>
-                <p>ラケットは無料で貸し出ししています。</p>
-
-
-                <div class="bold mtop50">
-                    <p> 一般（大人）クラスは2回まで無料で体験できます！</p>
-                    <p> ジュニアクラス、ソフトテニスクラスは1回無料で体験できます！</p>
-
-
-                </div>
-            </div>
-
-            <h2 class="mtop50">体験レッスンご予約の流れ</h2>
-            <div class="att-border"></div>
-            <div class="taiken3-mid">
-                <h3>ステップ1</h3>
-                <p>下記よりご希望のクラスのレベル、時間割等をご確認ください。</p>
-                <a href="<?php echo get_page_link(68); ?>" class="taiken3-btn">一般クラスレベル表はこちら<span>></span></a>
-                <a href="<?php echo get_page_link(117); ?>" class="taiken3-btn">ジュニアクラスレベル表はこちら<span>></span></a>
-                <a href="<?php echo get_page_link(174); ?>" class="taiken3-btn">ジュニアソフトテニスクラスについて<span>></span></a>
-                <a href="<?php echo get_page_link(70); ?>" class="taiken3a-btn mtop50">各クラス時間割表はこちら<span>></span></a>
-
-                <h3>ステップ2</h3>
-                <p>本ページの申込フォームより、ご予約ください。</p>
-                <a href="#taiken3-j" class="taiken3b-btn ">申込みフォームへ</a>
-
-            </div>
-
-
-            <h2 class="mtop100">お電話でもご予約いただけます</h2>
-            <div class="att-border"></div>
-            <p>体験レッスンについて、クラスのレベル、レッスン内容などご不明な点がございましたら、下記フォームまたはお電話からお気軽に問い合わせください</p>
-
-            <div id="taiken3-j" class="taiken-tel taiken3c-btn ">
-                <i class="fa-solid fa-phone "></i><a href="tel:" class="">0565-48-1121</a>
-
-            </div>
-
-
-        </div>
-
-        <div class="inq-inq-wrap">
-            <?php echo do_shortcode('[contact-form-7 id="130" title="お試しレッスン"]'); ?>
-        </div>
-
-    <?php elseif (is_page('test0820')) : ?>
-        <div class="topimg">
-            <img src="<?php echo get_template_directory_uri(); ?>/assets/img/m-system.jpg" alt="">
-        </div>
-        <div class="taiken3-wrap-2">
-            <div class="taiken3-top-2">
-                <p>ご入会を検討されている方は、ぜひ無料体験レッスンをご利用ください！はじめての方から上級者まで、レベル、目的、年齢に合わせたクラスをご用意しています。</p>
-                <p>まだラケットをお持ちでない方も安心！</p>
-                <p>ラケットは無料で貸し出ししています。</p>
-
-
-                <div class="bold mtop50">
-                    <p> 一般（大人）クラスは2回まで無料で体験できます！</p>
-                    <p> ジュニアクラス、ソフトテニスクラスは1回無料で体験できます！</p>
-
-
-                </div>
-            </div>
-
-            <h2 class="mtop50">体験レッスンご予約の流れ</h2>
-            <div class="att-border"></div>
-            <div class="taiken3-mid-2">
-                <h3>ステップ1</h3>
-                <p>下記よりご希望のクラスのレベル、時間割等をご確認ください。</p>
-                <a href="" class="taiken3-btn-2">一般クラスレベル表はこちら<span>></span></a>
-                <a href="" class="taiken3-btn-2">ジュニアクラスレベル表はこちら<span>></span></a>
-                <a href="" class="taiken3-btn-2">ジュニアソフトテニスクラスについて<span>></span></a>
-                <a href="" class="taiken3a-btn-2 mtop50">各クラス時間割表はこちら<span>></span></a>
-
-                <h3>ステップ2</h3>
-                <p>本ページの申込フォームより、ご予約ください。</p>
-                <a href="" class="taiken3b-btn-2 ">申込みフォームへ</a>
-
-            </div>
-
-
-            <h2 class="mtop100">お電話でもご予約いただけます</h2>
-            <div class="att-border"></div>
-            <p>体験レッスンについて、クラスのレベル、レッスン内容などご不明な点がございましたら、下記フォームまたはお電話からお気軽に問い合わせください</p>
-
-            <div class="taiken-tel-2 taiken3c-btn-2 ">
-                <i class="fa-solid fa-phone "></i><a href="tel:" class="">0565-48-1121</a>
-
-            </div>
-
-
-        </div>
-
-        <div class="inq-inq-wrap">
-            <?php echo do_shortcode('[contact-form-7 id="130" title="お試しレッスン"]'); ?>
-        </div>
-
-
-
-    <?php elseif (is_page('tournament-schedule')) : ?>
-        <div class="ts-wrap">
-            <div class="stuff-top">
-                <h2>大会スケジュール</h2>
-            </div>
-
-
-
-            <?php
-            $args = array(
-                'post_type' => 'tournament-schedule',
-                'posts_per_page' => 30,
-                'meta_key' => 'ts-day',
-                'orderby' => 'meta_value',
-                'order' => 'ASC',
-            );
-            $the_query = new WP_Query($args);
-            if ($the_query->have_posts()) :
-            ?>
-                <div class="tournament-schedules">
-
-
-                    <?php while ($the_query->have_posts()) : $the_query->the_post(); ?>
-                        <div class="tournament-schedule">
-                            <div class="ts-day">
-                                <?php echo date('Y/m/d', strtotime(CFS()->get('ts-day'))); ?> </div>
-                            <div class="ts-grade">
-                                <?php
-                                $values = CFS()->get('ts-grade');
-                                foreach ($values as $key => $label) :
-                                ?>
-                                    <span><?php echo $label; ?></span>
-                                <?php endforeach; ?>
-                            </div>
-                            <div class="ts-tournament">
-                                <?php
-                                $values = CFS()->get('ts-tournament');
-                                foreach ($values as $key => $label) :
-                                ?>
-                                    <span><?php echo $label; ?></span>
-                                <?php endforeach; ?>
-                            </div>
-
-                        </div>
-
-
-                    <?php endwhile;; ?>
-                </div>
-
-            <?php endif;
-            wp_reset_postdata()
-            ?>
-
-        </div>
-    <?php else : ?>
-        <div class="agenda-wrap">
-            <?php the_content() ?>
-        </div>
-
-
-
-    <?php endif; ?>
-
-    <?php get_footer(); ?>
+<?php get_footer(); ?>
