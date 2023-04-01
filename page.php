@@ -796,9 +796,6 @@
                         </div>
 
 
-                        <div class="tac-2">
-                            <a class="tac-2-a2" href="<?php echo get_template_directory_uri(); ?>/assets/img/2022FW シングルス1.pdf" download>2023年3月までの日程はこちら</a>
-                        </div>
 
                     </div>
 
@@ -811,9 +808,6 @@
                         </div>
 
 
-                        <div class="tac-2">
-                            <a class="tac-2-a2" href="<?php echo get_template_directory_uri(); ?>/assets/img/2022FW ダブルス.pdf" download>2023年3月までの日程はこちら</a>
-                        </div>
 
                     </div>
                     <div class="t-abt-con">
@@ -844,9 +838,6 @@
                         </div>
 
 
-                        <div class="tac-2">
-                            <a class="tac-2-a2" href="<?php echo get_template_directory_uri(); ?>/assets/img/2022FW ミックスダブルス.pdf" download>2023年3月までの日程はこちら</a>
-                        </div>
 
                     </div>
 
@@ -858,10 +849,6 @@
                             <a href="<?php echo get_template_directory_uri(); ?>/assets/img/2023SS T.pdf" download>日程・大会の詳細</a>
                         </div>
 
-
-                        <div class="tac-2">
-                            <a class="tac-2-a2" href="<?php echo get_template_directory_uri(); ?>/assets/img/2022FW 団体戦.pdf" download>2023年3月までの日程はこちら</a>
-                        </div>
 
                     </div>
 
@@ -885,10 +872,6 @@
                         </div>
 
 
-                        <div class="tac-2">
-                            <a class="tac-2-a2" href="<?php echo get_template_directory_uri(); ?>/assets/img/2022 小学生月例大会要項 .pdf" download>2023年3月までの日程はこちら</a>
-                        </div>
-
                     </div>
 
                     <div class="t-abt-con">
@@ -899,9 +882,6 @@
                             <a href="<?php echo get_template_directory_uri(); ?>/assets/img/2023 中学生月例開催要項.pdf" download>日程・大会の詳細</a>
                         </div>
 
-                        <div class="tac-2">
-                            <a class="tac-2-a2" href="<?php echo get_template_directory_uri(); ?>/assets/img/2022 中学生月例大会要項 .pdf" download>2023年3月までの日程はこちら</a>
-                        </div>
 
                     </div>
 
@@ -913,9 +893,6 @@
                             <a href="<?php echo get_template_directory_uri(); ?>/assets/img/2023 ビギナー.pdf" download>日程・大会の詳細</a>
                         </div>
 
-                        <div class="tac-2">
-                            <a class="tac-2-a2" href="<?php echo get_template_directory_uri(); ?>/assets/img/2022 ビギナーズトーナメント大会要項 .pdf" download>2023年3月までの日程はこちら</a>
-                        </div>
 
                     </div>
                     <div class="t-abt-con">
@@ -943,9 +920,6 @@
                             </div>
                             <div class="tac-2">
                                 <a href="<?php echo get_template_directory_uri(); ?>/assets/img/2023SS L.pdf" download>日程・大会の詳細</a>
-                            </div>
-                            <div class="tac-2">
-                                <a class="tac-2-a2" href="<?php echo get_template_directory_uri(); ?>/assets/img/2022FW レディース.pdf" download>2023年3月までの日程はこちら</a>
                             </div>
 
 
