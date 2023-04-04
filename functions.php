@@ -61,7 +61,7 @@ function add_thanks_page()
     echo <<< EOD
 <script>
 document.addEventListener( 'wpcf7mailsent', function( event ) {
- location = 'https://nagoya-green-tennis-club.com/thanks/'; /* 遷移先のURL */
+ location = 'https://ngtc.jp/thanks/'; /* 遷移先のURL */
 }, false );
 </script>
 EOD;

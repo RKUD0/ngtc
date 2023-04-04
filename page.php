@@ -1864,7 +1864,12 @@
                 <?php while ($the_query->have_posts()) : $the_query->the_post(); ?>
                     <div class="tournament-schedule">
                         <div class="ts-day">
-                            <?php echo date('Y/m/d', strtotime(CFS()->get('ts-day'))); ?> </div>
+                            <?php $week = array("日", "月", "火", "水", "木", "金", "土");
+
+                            $week2 = strtotime(CFS()->get('ts-day'));
+                            $week3 = $week[date("w", $week2)];
+                            echo date('Y/m/d ', strtotime(CFS()->get('ts-day')));
+                            echo "(", $week3, ")" ?> </div>
                         <div class="ts-grade">
                             <?php
                             $values = CFS()->get('ts-grade');

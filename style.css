@@ -2880,6 +2880,10 @@ font-size: 1.9rem;}
     margin-right: 2vw;
     display: grid;
     place-items: center;
+
+}
+.ts-day {
+    width:31%;
 }
 .ts-grade {
     width:100px;
